@@ -9,8 +9,6 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import { CartModule } from './cart/cart.module';
-import {MatSnackBar, matSnackBarAnimations, MatSnackBarModule} from '@angular/material/snack-bar';
-
 
 @NgModule({
   declarations: [
