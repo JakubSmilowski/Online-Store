@@ -5,7 +5,7 @@
         <div class="row">
             <!-- bootstrap here make it so that colums are set accordingly when the screen small midium adn large -->
             <div class="col-12 col-sm-6 col-md-4 col-lg-2 my-2" *ngFor="let product of products">
-                <mat-card class="product-card" appearance="outlined">    
+                <mat-card (click)="addToCart(product)" class="product-card" appearance="outlined">    
                     <img mat-card-image src="/assets/images/{{product.image_url}}">
                     <mat-card-content>  
                         <mat-card-title>{{product.name}}</mat-card-title>
